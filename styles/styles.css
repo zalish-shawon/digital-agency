@@ -1,7 +1,9 @@
+            /* universal selector */
 *{
     margin: 0;
     padding: 0;
 }
+                /* navbar and header  */
 .main-container {
     background-color:rgba(172, 166, 166, 0.5);
     padding-bottom: 10px;
@@ -29,6 +31,7 @@
     font-size: 18px;
     margin-top: 22px;
 }
+                /* banner section  */
 .banner-container {
     background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     background-blend-mode: color;
@@ -77,6 +80,7 @@ span{
     border: none;
     margin: 5px;
 }
+            /* service and chart section  */
 .service-btn {
     margin-left: 17px;
     margin-top: 75px;
@@ -177,6 +181,7 @@ small{
     margin-top: 15px;
     
 }
+                /* consult and appointment  */
 .consult-description{
     color: white;
     width: 60%;
@@ -214,6 +219,7 @@ small{
     border-radius: 25px;
     border: none;
 }
+                /* blog and news */
 .blog-elements{
     text-align: center;
     margin-bottom: 65px;
@@ -253,4 +259,58 @@ small{
     margin-right: auto;
     display: flex;
     gap: 45px;
+}
+                /* footer  */
+.footer {
+    background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 95px;
+}
+.footer-container{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.footer-description {
+    /* width: 35%; */
+    margin-top: 15px;
+}
+.footer-icons {
+    font-size: 25px;
+    
+}
+.icon{
+    margin: 10px;
+    margin-top: 20px;
+}
+.left-container {
+    width: 250px;
+   
+}
+/* .right-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+} */
+.useful-links {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.about{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+hr{
+    width: 95%;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.copyright{
+    margin-top: 35px;
+    font-size: 12px;
+    text-align: center;
 }
