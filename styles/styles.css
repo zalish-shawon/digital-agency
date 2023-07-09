@@ -89,15 +89,15 @@ span{
    
 }
 .service-container {
+    height: 665px;
     background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     color: white;
     display: flex;
-    padding-bottom: 75px;
+    padding-bottom: 95px;
     
 }
 .service-heading{
-    
     margin-left: 17px;
     font-size: 40px;
     font-weight: bold;
@@ -106,7 +106,7 @@ span{
 }
 .service-description {
     margin-left: 17px;
-    width: 45%;
+    width: 80%;
     font-size: 20px;
     padding: 12px;
     color: rgb(190, 207, 208)
@@ -176,5 +176,41 @@ small{
     align-items: center;
     margin-top: 15px;
     
+}
+.consult-description{
+    color: white;
+    width: 60%;
+}
 
+.appointment-container{
+    margin-top: -80px;
+    border-radius: 12px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 45px;
+    background-color: #F52C2C;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.consult{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-right: 1px solid green;
+}
+
+.phone{
+    width: 80px;
+    height: 80px;
+}
+.consult-heading {
+    font-size: 11px;
+}
+.consult-btn{
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
 }
